@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+body {
+    cursor: url(cursor.svg), auto;
+    font-family: 'DM Sans', sans-serif !important;
+}
+
+.smooth-change {
+  transition-timing-function: ease-in;
+
+  transition: 0.3s;
+}
+
+.text-moprh {
+    transition: all 0.5s ease;
+}
+
+@keyframes textChange {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+}
