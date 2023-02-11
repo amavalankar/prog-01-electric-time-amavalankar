@@ -163,7 +163,7 @@
             const inputVal = getInputVal()
             if (inputVal == 0) {
                 time = "N/A"
-                time = "N/A"
+                distance = "N/A"
             } else {
                 time = time + " min"
                 distance = distance + " mi"
